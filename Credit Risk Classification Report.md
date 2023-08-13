@@ -10,12 +10,6 @@ The provided features the model was trained on include loan size, interest rate,
 For this analysis we utilized the Scikit-learn logistic regression method which models the probability of the target variable belonging to a particular class which is commonly used for binary classification such as this. Based on background from ChatGPT, "Scikit-learn's logistic regression method learns the optimal coefficients (weights) for the features by minimizing a cost function, often the negative log-likelihood, using optimization techniques like gradient descent. The goal is to find the weights that maximize the likelihood of the observed data given the model."
 To conduct this analysis we input our data into a data frame. We then isolated our X feature set and our y variable. We the subset both the x and y data into a test and train data set. We created the model and fit it to the training data. We then utilized the model to predict a set of y values from our test x data set and compare those values to the actual y values of the test set to determine the models accuracy.
 
-
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
